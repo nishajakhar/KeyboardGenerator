@@ -6,7 +6,7 @@ This project is a Dapp which allows users to generate keyboards on blockchain. U
 
 
 
-#Features 
+# Features 
 - User can create new keyboard
 - User can view other user created keyboards
 - User can send ETH to other keyboard created owners
@@ -45,8 +45,9 @@ npx hardhat run scripts/deploy.js --network goerli
 ## Steps to run frontend: :unicorn:
 
 1. Paste the contract address under KEYBOARD_CONTRACT_ADDRESS in constants/keyboards.js file
+2. Copy the contract ABI from artifacts/contracts/Keyboards.sol/Keyboards.json and paste it under KEYBOARD_CONTRACT_ABI in constants/keyboards.js file
 
-3 Now create the build and start the server
+3. Now create the build and start the server
 ```
 npm build
 npm start
